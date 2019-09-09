@@ -4,4 +4,4 @@
 <p>Welcome! </p>
 <p>Repo Created! </p>
 
-<p> Proposal </p>
+<p>Created <a href="https://github.com/rickyramnath97/gps/blob/master/documentation/ProposalContentStudentNameRev03.xlsx">proposal</a>.</p>
