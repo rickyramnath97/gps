@@ -14,6 +14,8 @@
 <p> For my hardware, I chose the Adafruit Ultimate GPS Breakout. This will be able to display location. My goal is to make the project scalable from one location to several for our Capstone Project. To enhance the user experience, having a GPS Sensor is crucial to detect which parts crib data belong to which.
   </p>
   
+  
+<p> Image of Sensor </p>
 <img src="https://github.com/rickyramnath97/gps/blob/master/images/sensor.jpg" alt=" Image of Sensor "/></p>
 
   
