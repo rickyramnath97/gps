@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="CENG317" company="" webLink="http://rickyramnath97.github.io/gps/" view-date="2019-09-01" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="en_US">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+        <timeline><![CDATA[0,9,29,11,27,25,23,3]]></timeline>
+        <option id="color.recent"><![CDATA[#009900 #cc00ff #666600 #99ff99 #ff99cc #ff9999 #999999 #009966 #000033 #66ff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Week 1 - Project/Hardware Selection" color="#8cb6ce" meeting="false" start="2019-09-03" duration="6" complete="0" thirdDate="2019-09-02" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[ Project Proposal to be created.]]></notes>
+        </task>
+        <task id="3" name="Week 2 - Proposal Due/ Create Plan" color="#ffff33" meeting="false" start="2019-09-10" duration="6" complete="1" thirdDate="2019-09-02" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Project Proposal Due (rubric), handed in hardcopy of a completed/modified table and posted a link to blog.]]></notes>
+        </task>
+        <task id="9" name="Week 3 - Create Budget/Schedule Due/Meet with Collaborator" color="#0033ff" meeting="false" start="2019-09-17" duration="6" complete="0" thirdDate="2019-08-28" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Created and handed in schedule/gantt chart. Meet with collaborator.]]></notes>
+        </task>
+        <task id="11" name="Week 4 - Budget Due" color="#ff0066" meeting="false" start="2019-09-24" duration="6" complete="0" thirdDate="2019-08-28" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Proof of purchase due by posting on your blog (be sure to not post any sensitive information) and week 6 you'll be bringing your parts to class.]]></notes>
+        </task>
+        <task id="23" name="Week 5 - Proof of Purchase Due" color="#33ffcc" meeting="false" start="2019-10-01" duration="6" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Proof of purchase due also set up RPI
+]]></notes>
+        </task>
+        <task id="25" name="Week 6 - Present Acquisitions" color="#66ff33" meeting="false" start="2019-10-08" duration="6" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Present what i had purchased]]></notes>
+        </task>
+        <task id="27" name="Week 7 - Breadboard and PCB Designed" color="#000033" meeting="false" start="2019-10-15" duration="11" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Get PCB laser etched
+PCB design due]]></notes>
+        </task>
+        <task id="28" name="READING WEEK" color="#009966" meeting="false" start="2019-10-18" duration="7" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Week 8 - Breadboard Assembly Milestone Due" color="#999999" meeting="false" start="2019-10-29" duration="6" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="Week 9 - PCB Soldered / Work on Enclosure" color="#ff9999" meeting="false" start="2019-11-05" duration="6" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true"/>
+        <task id="31" name="Week 10 - PCB Powered Up/ Enclosure" color="#ff99cc" meeting="false" start="2019-11-12" duration="6" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true"/>
+        <task id="32" name="Week 11 - Work on Presentation" color="#99ff99" meeting="false" start="2019-11-19" duration="6" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true"/>
+        <task id="33" name="Week 12 - Work on Prototype Acceptance / Presentations" color="#666600" meeting="false" start="2019-11-26" duration="6" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true"/>
+        <task id="34" name="Week 13 - Work on Build Instructions" color="#cc00ff" meeting="false" start="2019-12-03" duration="6" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true"/>
+        <task id="50" name="Week 14 - Last Day of Class" color="#009900" meeting="false" start="2019-12-10" duration="6" complete="0" thirdDate="2019-09-03" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

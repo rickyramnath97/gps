@@ -1,0 +1,38 @@
+MPX,Microsoft Project for Windows,4.0,ANSI
+10,$,1,2,",",.
+11,2,0,1,8.00,40.00,$10.00/h,$15.00/h,1,0
+12,1,0,480,/,:,am,pm,20,20
+20,Standard,0,1,1,1,1,1,0
+25,1
+25,2,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,3,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,4,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,5,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,6,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,7
+30,Project1,,,Standard,03/09/2019,17/12/2019,0,15/09/2019,,$0.00,$0.00,$0.00,0h,0h,0h,0%,0d,0d,0d,0%,,,,,0d,0d
+60,Name,WBS,Outline Level,Cost,Duration,Actual Duration,Remaining Duration,% Complete,Start,Finish,Fixed,Milestone,ID,Constraint Type,Priority,Unique ID,Outline Number
+61,1,2,3,30,40,42,43,44,50,51,80,81,90,91,95,98,99
+70,,0,0,,106d,,,,03/09/2019,17/12/2019,No,,0,As Soon As Possible,,0,0
+70,Week 1 - Project/Hardware Selection,1,1,$0.00,6d,0d,6d,0%,03/09/2019,10/09/2019,No,No,1,As Soon As Possible,Medium,51,1
+71, Project Proposal to be created.
+70,Week 2 - Proposal Due/ Create Plan,2,1,$0.00,6d,0.06d,5.94d,1%,10/09/2019,17/09/2019,No,No,2,As Soon As Possible,Medium,3,2
+71,"Project Proposal Due (rubric), handed in hardcopy of a completed/modified table and posted a link to blog."
+70,Week 3 - Create Budget/Schedule Due/Meet with Collaborator,3,1,$0.00,6d,0d,6d,0%,17/09/2019,24/09/2019,No,No,3,As Soon As Possible,Medium,9,3
+71,Created and handed in schedule/gantt chart. Meet with collaborator.
+70,Week 4 - Budget Due,4,1,$0.00,6d,0d,6d,0%,24/09/2019,01/10/2019,No,No,4,As Soon As Possible,Medium,11,4
+71,Proof of purchase due by posting on your blog (be sure to not post any sensitive information) and week 6 you'll be bringing your parts to class.
+70,Week 5 - Proof of Purchase Due,5,1,$0.00,6d,0d,6d,0%,01/10/2019,08/10/2019,No,No,5,As Soon As Possible,Medium,23,5
+71,Proof of purchase due also set up RPI
+70,Week 6 - Present Acquisitions,6,1,$0.00,6d,0d,6d,0%,08/10/2019,15/10/2019,No,No,6,As Soon As Possible,Medium,25,6
+71,Present what i had purchased
+70,Week 7 - Breadboard and PCB Designed,7,1,$0.00,11d,0d,11d,0%,15/10/2019,29/10/2019,No,No,7,As Soon As Possible,Medium,27,7
+71,Get PCB laser etchedPCB design due
+70,READING WEEK,8,1,$0.00,7d,0d,7d,0%,18/10/2019,28/10/2019,No,No,8,As Soon As Possible,Medium,28,8
+70,Week 8 - Breadboard Assembly Milestone Due,9,1,$0.00,6d,0d,6d,0%,29/10/2019,05/11/2019,No,No,9,As Soon As Possible,Medium,29,9
+70,Week 9 - PCB Soldered / Work on Enclosure,10,1,$0.00,6d,0d,6d,0%,05/11/2019,12/11/2019,No,No,10,As Soon As Possible,Medium,30,10
+70,Week 10 - PCB Powered Up/ Enclosure,11,1,$0.00,6d,0d,6d,0%,12/11/2019,19/11/2019,No,No,11,As Soon As Possible,Medium,31,11
+70,Week 11 - Work on Presentation,12,1,$0.00,6d,0d,6d,0%,19/11/2019,26/11/2019,No,No,12,As Soon As Possible,Medium,32,12
+70,Week 12 - Work on Prototype Acceptance / Presentations,13,1,$0.00,6d,0d,6d,0%,26/11/2019,03/12/2019,No,No,13,As Soon As Possible,Medium,33,13
+70,Week 13 - Work on Build Instructions,14,1,$0.00,6d,0d,6d,0%,03/12/2019,10/12/2019,No,No,14,As Soon As Possible,Medium,34,14
+70,Week 14 - Last Day of Class,15,1,$0.00,6d,0d,6d,0%,10/12/2019,17/12/2019,No,No,15,As Soon As Possible,Medium,50,15
