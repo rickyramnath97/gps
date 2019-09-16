@@ -22,3 +22,9 @@
 
 <p> Working on Gantt Chart </p>
 
+
+<h3 id="september-17-2019-week-3">September 17, 2019 (Week 2)</h3>
+
+<p> Gantt Chart completed!
+  
+  
