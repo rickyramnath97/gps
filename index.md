@@ -27,4 +27,6 @@
 
 <p> Gantt Chart completed!
   
+<img src="" alt="Gantt"/></p>
+  
   
