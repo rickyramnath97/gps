@@ -16,7 +16,7 @@
   
   
 <p> Image of Sensor: </p>
-<img src="https://github.com/rickyramnath97/gps/blob/master/images/sensor.jpg" alt="Image of Sensor"/></p>
+<img src="images/sensor.jpg" alt="Image of Sensor"/></p>
 
   
 
