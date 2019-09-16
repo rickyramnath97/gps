@@ -24,10 +24,8 @@
 
 
 <h3 id="september-17-2019-week-3">September 17, 2019 (Week 3)</h3>
-
-<p> Gantt Chart completed! 
-  
-<p><a href="">Gantt Chart Completed!</a>.</p>
+   
+<p><a href="https://github.com/rickyramnath97/gps/blob/master/documentation/CENG317%20Project%20Plan.gan">Gantt Chart Completed!</a>.</p>
   
 <img src="images/gantt.PNG" alt="Gantt"/></p>
   
