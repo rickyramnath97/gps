@@ -27,6 +27,6 @@
 
 <p> Gantt Chart completed!
   
-<img src="" alt="Gantt"/></p>
+<img src="https://github.com/rickyramnath97/gps/blob/master/images/gantt.PNG" alt="Gantt"/></p>
   
   
