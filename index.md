@@ -27,6 +27,13 @@
    
 <p><a href="https://github.com/rickyramnath97/gps/blob/master/documentation/CENG317%20Project%20Plan.gan">Gantt Chart Completed!</a>.</p>
   
-<img src="images/gantt.PNG" alt="Gantt"/></p>
+<img src="images/gantt.PNG" alt="Gantt"/>
+
+
+<h3 id="september-24-2019-week-4">September 24, 2019 (Week 4)</h3>
+  
+<p><a href="https://github.com/rickyramnath97/gps/blob/master/documentation/CENG317%20Project%20Plan.gan">Budget Completed!</a>.</p>
+  <p>- Ordered Parts</p>
   
   
+ 
