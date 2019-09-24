@@ -37,11 +37,11 @@
   
   
 <h3 id="october-1-2019-week-4">October 1, 2019 (Week 5)</h3>
-
+<p> Setting up my broadcom development platform (RPI) </p>
 <p> Parts Ordered </p>
 
-<p> Proof of Purchase </p>
-
+<p> Proof of Purchase: </p>
+<img src="images/Budget 2.PNG" alt="Image of Budget"/>
 
   
   
