@@ -11,7 +11,7 @@
 
 <p> Handed in <a href="https://github.com/rickyramnath97/gps/blob/master/documentation/ProposalContentStudentNameRev03.xlsx">proposal</a>. </p>
 
-<p> For my hardware, I chose the Adafruit Ultimate GPS Breakout. This will be able to display location. My goal is to make the project scalable from one location to several for our Capstone Project. To enhance the user experience, having a GPS Sensor is crucial to detect which parts crib data belong to which.
+<p> For my hardware, I chose the Adafruit Ultimate GPS Breakout. This will be able to display location. My goal is to make the project scalable from one location to several for our Capstone Project. To enhance the user experience, having a GPS Sensor is crucial to detect which parts crib data belong to which. Additionally, the GPS will prioritize orders by accessing location from students and finding out how long it will take for student to arrive to the parts crib. From that we will know which orders to get ready first in priority sequence based on travel time.
   </p>
   
   
