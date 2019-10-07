@@ -15,7 +15,7 @@
 
 
 
-
+<hr size="10" width="50%" align="center" color="green">
 
 <h3 id="october-1-2019-week-5">October 1, 2019 (Week 5)</h3>
 <p> Setting up my broadcom development platform (RPI) </p>
@@ -24,12 +24,14 @@
 <p> Proof of Purchase: </p>
 <img src="images/Budget 2.PNG" alt="Image of Budget"/>
 
+<hr size="10" width="50%" align="center" color="green">
 
 <h3 id="september-24-2019-week-4">September 24, 2019 (Week 4)</h3>
   
 <p><a href="https://github.com/rickyramnath97/gps/blob/master/documentation/Rickys%20Budget.xlsx">Budget Completed!</a>.</p>
   <p>- Ordered Parts</p>
 
+<hr size="10" width="50%" align="center" color="green">
 
 <h3 id="september-17-2019-week-3">September 17, 2019 (Week 3)</h3>
    
@@ -37,7 +39,7 @@
  <p>- Met with collaborators </p> 
 <img src="images/gantt.PNG" alt="Gantt"/>
 
- 
+<hr size="10" width="50%" align="center" color="green"> 
   
 <h3 id="september-09-2019-week-2">September 9, 2019 (Week 2)</h3>
 
@@ -53,7 +55,7 @@
 <p> Working on Gantt Chart </p>
 
 
-
+<hr size="10" width="50%" align="center" color="green">
 
 
 <h3 id="september-03-2019-week-1">September 3, 2019 (Week 1)</h3>
