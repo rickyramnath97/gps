@@ -7,7 +7,11 @@
 
 <img src="images/parts.jpg" alt="Image of parts"/>
 
+<p> I had also watched a <a href="https://youtu.be/3230nCz3XQA">video</a> on how to solder my header pins and was able to do so. I used my own Lead Free solder with Rosin Core and a soldering iron that I had borrowed from work. This was the outcome:</p>
 
+<img src="images/before.JPG" alt="Image of parts"/>
+
+<img src="images/after.jpg" alt="Image of parts"/>
 
 
 
