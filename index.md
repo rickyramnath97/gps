@@ -1,7 +1,11 @@
 <h3 id="october-8-2019-week-6">October 8, 2019 (Week 6)</h3>
 <p> Showing my acquisitions </p>
+<p> Package arrived Thursday, October 3rd, 2019: </p>
+<img src="images/package.jpg" alt="Image of Package"/>
 
+<p> Contents of package include; GPS Sensor, Adapter cable for antenna, and antenna: </p>
 
+<img src="images/parts.jpg" alt="Image of parts"/>
 
 
 
