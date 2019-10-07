@@ -1,4 +1,15 @@
-<h3 id="october-1-2019-week-4">October 1, 2019 (Week 5)</h3>
+<h3 id="october-8-2019-week-6">October 8, 2019 (Week 6)</h3>
+<p> Showing my acquisitions </p>
+
+
+
+
+
+
+
+
+
+<h3 id="october-1-2019-week-5">October 1, 2019 (Week 5)</h3>
 <p> Setting up my broadcom development platform (RPI) </p>
 <p> Parts Ordered </p>
 
