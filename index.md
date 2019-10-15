@@ -1,3 +1,17 @@
+<h3 id="october-15-2019-week-7">October 15, 2019 (Week 7)</h3>
+<p> PCB Designed </p>
+<p> Designed my PCB, Schematic, and Breadboard Design. I also sent my gerber files to the Prototype Lab. You can view my fritzing file <a href="https://github.com/rickyramnath97/gps/blob/master/electronics/GPS%20Fritzing2.fzz">here</a>. </p>
+<p> I am also getting my Broadcom Development Platform set up with VNC Viewer to work with the Humber College WiFi network. </p> 
+<p>PCB Designed: </p>
+<img src="images/PCB.PNG" alt="Image of PCB"/>
+<p>Schematic: </p>
+<img src="images/Schematic.PNG" alt="Image of Schematic"/>
+<p>Breadboard Design: </p>
+<img src="images/Breadboard.PNG" alt="Image of Breadboard"/>
+
+
+<hr size="10" width="100%" align="center" color="green">
+
 <h3 id="october-8-2019-week-6">October 8, 2019 (Week 6)</h3>
 <p> Showing my acquisitions </p>
 <p> Package arrived Thursday, October 3rd, 2019: </p>
