@@ -3,7 +3,7 @@
 <p> Designed my PCB, Schematic, and Breadboard Design. I also sent my gerber files to the Prototype Lab. You can view my fritzing file <a href="https://github.com/rickyramnath97/gps/blob/master/electronics/GPS%20Fritzing2.fzz">here</a>. </p>
 <p> I am also getting my Broadcom Development Platform set up with VNC Viewer to work with the Humber College WiFi network. </p> 
 <p>PCB Designed: </p>
-<img src="images/PCB.PNG" alt="Image of PCB"/>
+<img src="images/PCB2.PNG" alt="Image of PCB"/>
 <p>Schematic: </p>
 <img src="images/Schematic.PNG" alt="Image of Schematic"/>
 <p>Breadboard Design: </p>
