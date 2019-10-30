@@ -15,24 +15,7 @@
 
 <p> These are the results I got: </p>
 <img src="images/output.jpg" alt="Output"/>
-
-
-
-
 <hr size="10" width="100%" align="center" color="green">
-
-
-
-
-
-
-
-
-
-
-
-
-
 <h3 id="october-15-2019-week-7">October 15, 2019 (Week 7)</h3>
 <p> PCB Designed </p>
 <p> Designed my PCB, Schematic, and Breadboard Design. I also sent my gerber files to the Prototype Lab. You can view my fritzing file <a href="https://github.com/rickyramnath97/gps/blob/master/electronics/GPS%20Fritzing2.fzz">here</a>. </p>
