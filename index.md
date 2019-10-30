@@ -1,3 +1,38 @@
+<h3 id="october-29-2019-week-9">October 29, 2019 (Week 9)</h3>
+<p> Breadboarded Milestone: This week I successfully breadboarded and demostrated my sensor in front of my Professor(Kristian). </p>
+<p> Sensor Breadboarded: </p>
+<img src="images/sensor_connected.jpg" alt="Connected Sensor"/>
+<img src="images/sensor_and_pi.jpg" alt="Sensor and Pi"/>
+
+<p> In order for my sensor to work I had to Disable Serial console and Enable UART on my Pi. By running "sudo raspi-config" in the terminal window. Next I went to <b>Interfacing Options -> Serial -> Select "No" on enabling the login shell -> Select "Yes" on enabling serial port hardware</b></p>
+<p> This is what I got: </p>
+<img src="images/config.png" alt="Config"/>
+
+<p> Next I ran a few commands to get the the sensor to display its respective results: </p>
+<p><b> sudo killall gpsd </b></p>
+<p><b> sudo gpsd /dev/serial0 -F /var/run/gpsd.sock </b></p>
+<p><b> cgps -s </b></p>
+
+<p> These are the results I got: </p>
+<img src="images/output.jpg" alt="Output"/>
+
+
+
+
+<hr size="10" width="100%" align="center" color="green">
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h3 id="october-15-2019-week-7">October 15, 2019 (Week 7)</h3>
 <p> PCB Designed </p>
 <p> Designed my PCB, Schematic, and Breadboard Design. I also sent my gerber files to the Prototype Lab. You can view my fritzing file <a href="https://github.com/rickyramnath97/gps/blob/master/electronics/GPS%20Fritzing2.fzz">here</a>. </p>
