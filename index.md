@@ -1,5 +1,5 @@
 <h3 id="october-29-2019-week-9">October 29, 2019 (Week 9)</h3>
-<p> Breadboarded Milestone: This week I successfully breadboarded and demostrated my sensor in front of my Professor(Kristian). </p>
+<p> Breadboarded Milestone: This week I successfully breadboarded and demostrated my sensor in front of my Professor(Kristian). I also spent some time in the prototype lab with Kelly and Kristian to set up my RPI to get it to connected to my laptop using a ethernet cable and adapter. So far, from refering to my Gantt Chart, I am on track with all my milestones and achievements. </p>
 <p> Sensor Breadboarded: </p>
 <img src="images/sensor_connected.jpg" alt="Connected Sensor"/>
 <img src="images/sensor_and_pi.jpg" alt="Sensor and Pi"/>
