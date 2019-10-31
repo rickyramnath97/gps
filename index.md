@@ -4,7 +4,7 @@
 <img src="images/sensor_connected.jpg" alt="Connected Sensor"/>
 <img src="images/sensor_and_pi.jpg" alt="Sensor and Pi"/>
 
-<p> In order for my sensor to work I had to Disable Serial console and Enable UART on my Pi. By running "sudo raspi-config" in the terminal window. Next I went to <b>Interfacing Options -> Serial -> Select "No" on enabling the login shell -> Select "Yes" on enabling serial port hardware</b></p>
+<p> In order for my sensor to work, I had to Disable Serial console and Enable UART on my Pi. By running <b>sudo raspi-config</b> in the terminal window. Next I went to <b>Interfacing Options -> Serial -> Select "No" on enabling the login shell -> Select "Yes" on enabling serial port hardware</b></p>
 <p> This is what I got: </p>
 <img src="images/config.png" alt="Config"/>
 
