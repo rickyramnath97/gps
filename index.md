@@ -1,3 +1,16 @@
+<h3 id="november-5-2019-week-10">November 5, 2019 (Week 10)</h3>
+<p> Soldering Milestone </p>
+<p> Soldered up my PCB Board that was made in the Protoype Lab </p>
+<p> According to my Gantt Chart, I am up to date with my progress and have my sensor and my connection from my laptop to my RPi working seemlessly. </p>
+<p> This week I am working on designing my enclosure to fit my sensor and my Development Platform. I have done the Idea Lab Quiz and booked a session to get more information as to how it will all work. </p>
+<p> Below are photos of my PCB soldered up. I used a 8-Pin Stackable Header to harness my GPS Sensor, and used a 6x2 Stackable Header to plug into my RPi. </p>
+<img src="images/pcbFront.jpg" alt="Front of PCB"/>
+<img src="pcbBack.jpg" alt="Back of PCB"/>
+
+
+
+
+<hr size="10" width="100%" align="center" color="green">
 <h3 id="october-29-2019-week-9">October 29, 2019 (Week 9)</h3>
 <p> Breadboarded Milestone: This week I successfully breadboarded and demostrated my sensor in front of my Professor(Kristian). I also spent some time in the prototype lab with Kelly and Kristian to set up my RPI to get it to connected to my laptop using a ethernet cable and adapter (was a success). So far, from refering to my Gantt Chart, I am on track with all my milestones and achievements. </p>
 <p> Sensor Breadboarded: </p>
