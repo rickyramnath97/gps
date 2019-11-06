@@ -5,7 +5,7 @@
 <p> This week I am working on designing my enclosure to fit my sensor and my Development Platform. I have done the Idea Lab Quiz and booked a session to get more information as to how it will all work. </p>
 <p> Below are photos of my PCB soldered up. I used a 8-Pin Stackable Header to harness my GPS Sensor, and used a 6x2 Stackable Header to plug into my RPi. </p>
 <img src="images/pcbFront.jpg" alt="Front of PCB"/>
-<img src="pcbBack.jpg" alt="Back of PCB"/>
+<img src="images/pcbBack.jpg" alt="Back of PCB"/>
 
 
 
