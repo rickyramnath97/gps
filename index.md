@@ -13,6 +13,7 @@
 
 
 
+
 <hr size="10" width="100%" align="center" color="green">
 <h3 id="november-5-2019-week-9">November 5, 2019 (Week 9)</h3>
 <p> Soldering Milestone </p>
