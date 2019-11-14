@@ -3,7 +3,7 @@
 <p> This week I powered up my PCB and tested it. I was having some trouble aquiring signal for my GPS at school. I have found a spot where is located in the prototype lab where it has worked before. I am still actively looking and trying to find "sweet spots" around the vicinity of the class room and inside the prototype lab. So far everything is working fine though. </p>
 <p> Referring to my Gantt Chart, I am up to date with everything and I am in the process of making my enclosure for my RPi which is due next week and will be graded. </p>
 <p> Below you can see a video of my sensor working with my PCB. </p>
-<video width="320" height="240" controls>
+<video width="420" height="420" controls>
   <source src="videos/PCB_PowerUp.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
