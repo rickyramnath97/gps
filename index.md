@@ -1,4 +1,20 @@
-<h3 id="november-5-2019-week-10">November 5, 2019 (Week 10)</h3>
+<h3 id="november-12-2019-week-10">November 12, 2019 (Week 10)</h3>
+<p> PCB Power Up </p>
+<p> This week I powered up my PCB and tested it. I was having some trouble aquiring signal for my GPS at school. I have found a spot where is located in the prototype lab where it has worked before. I am still actively looking and trying to find "sweet spots" around the vicinity of the class room and inside the prototype lab. So far everything is working fine though. </p>
+<p> Refering to my Gantt Chart, I am up to date with everything and I am in the process of making my enclosure for my RPi which is due next week and will be graded. </p>
+<p> Below you can see a video of my sensor working with my PCB. </p>
+<video width="320" height="240" controls>
+  <source src="videos/PCB_PowerUp.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
+
+
+
+
+<hr size="10" width="100%" align="center" color="green">
+<h3 id="november-5-2019-week-9">November 5, 2019 (Week 9)</h3>
 <p> Soldering Milestone </p>
 <p> Soldered up my PCB Board that was made in the Protoype Lab </p>
 <p> According to my Gantt Chart, I am up to date with my progress and have my sensor and my connection from my laptop to my RPi working seemlessly. </p>
@@ -11,7 +27,7 @@
 
 
 <hr size="10" width="100%" align="center" color="green">
-<h3 id="october-29-2019-week-9">October 29, 2019 (Week 9)</h3>
+<h3 id="october-29-2019-week-8">October 29, 2019 (Week 8)</h3>
 <p> Breadboarded Milestone: This week I successfully breadboarded and demostrated my sensor in front of my Professor(Kristian). I also spent some time in the prototype lab with Kelly and Kristian to set up my RPI to get it to connected to my laptop using a ethernet cable and adapter (was a success). So far, from refering to my Gantt Chart, I am on track with all my milestones and achievements. </p>
 <p> Sensor Breadboarded: </p>
 <img src="images/sensor_connected.jpg" alt="Connected Sensor"/>
