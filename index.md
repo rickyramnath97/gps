@@ -1,7 +1,10 @@
 <h3 id="november-19-2019-week-11">November 19, 2019 (Week 11)</h3>
 <p>Enclosure Due</p>
-<p>This week I am showing that my Enclosure is due. I used CorelDRAW and some of the internet to help me design my case.</p>
+<p>This week I am showing that my Enclosure is due. I used CorelDRAW and some of the internet to help me design my case. You can view my design file <a href="https://github.com/rickyramnath97/gps/blob/master/electronics/GPS%20Fritzing2.fzz">here</a></p>
 
+
+<img src="images/CorelFile.PNG" alt="Schematic"/>
+<img src="images/enclosure.jpg" alt="Enclosure"/>
 
 
 
