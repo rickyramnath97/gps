@@ -1,3 +1,14 @@
+<h3 id="november-19-2019-week-11">November 19, 2019 (Week 11)</h3>
+<p>Enclosure Due</p>
+<p>This week I am showing that my Enclosure is due. I used CorelDRAW and some of the internet to help me design my case.</p>
+
+
+
+
+
+
+
+<hr size="10" width="100%" align="center" color="green">
 <h3 id="november-12-2019-week-10">November 12, 2019 (Week 10)</h3>
 <p> PCB Power Up </p>
 <p> This week I powered up my PCB and tested it. I was having some trouble aquiring signal for my GPS at school. I have found a spot where is located in the prototype lab where it has worked before. I am still actively looking and trying to find "sweet spots" around the vicinity of the class room and inside the prototype lab. So far everything is working fine though. </p>
