@@ -1,3 +1,20 @@
+<h3 id="november-26-2019-week-12">November 26, 2019 (Week 12)</h3>
+
+<p>Presentation Due</p>
+
+<p>This has been an amazing semester. Ive learned alot of new skills.</p>
+<p>To conclude this semester, I made a powerpoint presentation which will be graded.</p>
+<p>You can view the presentation <a href="https://github.com/rickyramnath97/gps/blob/master/documentation/MTK3339%20%E2%80%93%20Adafruit%20Ultimate%20GPS%20Sensor.pptx">here</a></p>
+
+
+
+
+
+
+
+
+
+<hr size="10" width="100%" align="center" color="green">
 <h3 id="november-19-2019-week-11">November 19, 2019 (Week 11)</h3>
 <p>Enclosure Due</p>
 <p>This week I am showing that my Enclosure is due. I used CorelDRAW and some of the internet to help me design my case. You can view my design file <a href="https://github.com/rickyramnath97/gps/blob/master/mechanical/RickysPi3Case%20New.cdr">here</a></p>
