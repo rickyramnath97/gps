@@ -1,22 +1,24 @@
-import gps
-
-# Listen on port 2947 (gpsd) of localhost
-session = gps.gps("localhost", "2947")
-session.stream(gps.WATCH_ENABLE | gps.WATCH_NEWSTYLE)
-
-while True:
-    try:
-        report = session.next()
-        # Wait for a 'TPV' report and display the current time
-        # To see all report data, uncomment the line below
-        # print(report)
+from gps import *
+import time
+    
+gpsd = gps(mode=WATCH_ENABLE|WATCH_NEWSTYLE) 
+   
+try:
+ 
+ 
+    while True:
+        report = gpsd.next() #
         if report['class'] == 'TPV':
-            if hasattr(report, 'time'):
-                print(report.time)
-    except KeyError:
-        pass
-    except KeyboardInterrupt:
-        quit()
-    except StopIteration:
-        session = None
-        print("GPSD has terminated")
+             
+            print  getattr(report,'lat',0.0),"\t",
+            print  getattr(report,'lon',0.0),"\t",
+            print  getattr(report,'alt','nan'),"\t\t",
+            print  getattr(report,'epv','nan'),"\t",
+            print  getattr(report,'ept','nan'),"\t",
+            print  getattr(report,'speed','nan'),"\t",
+            print getattr(report,'climb','nan'),"\t"
+ 
+        time.sleep(1) 
+ 
+except (KeyboardInterrupt, SystemExit): #when you press ctrl+c
+    print "Done.\nExiting."
