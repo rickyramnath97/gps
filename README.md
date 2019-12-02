@@ -49,5 +49,32 @@ The following links below are sources of where you can purchase the items:
 	* GPS RX to TX on Pi
 * TX pin
 	* GPS TX to RX on Pi
-  
+
+3. Once you have obtained your PCB board solder the following:
+* Vias\*
+* 40-pin socket 
+* 9-pin socket
+<br/>\*Note: You must thread a single strand of wire through the holes, solder it, and then cut the remaining wires off.
+
+Once you have finished soldering, your board should look like this along with the sensor:
+<br/><img src="https://github.com/rickyramnath97/gps/blob/master/images/pcbFront.jpg" width="350"><img src="https://github.com/rickyramnath97/gps/blob/master/images/pcbBack.jpg" width="350"><br/>
+
+### SPI/UART Connection
+
+1. In order for the sensor to work, you have to Disable Serial console and Enable UART on your Pi. By running <b>sudo raspi-config</b> in the terminal window. Next goto <b>Interfacing Options -> Serial -> Select "No" on enabling the login shell -> Select "Yes" on enabling serial port hardware</b>
+This is what it should look like:
+<br/><img src="https://github.com/rickyramnath97/gps/blob/master/images/config.png" width="350">
+
+
+2. Now you can test the sensor and get readings by typing in the following:
+```
+sudo killall gpsd
+```
+```
+sudo gpsd /dev/serial0 -F /var/run/gpsd.sock
+```
+```
+cgps -s
+```
+
 
