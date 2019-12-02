@@ -65,8 +65,9 @@ Once you have finished soldering, your board should look like this along with th
 This is what it should look like:
 <br/><img src="https://github.com/rickyramnath97/gps/blob/master/images/config.png" width="350">
 
+### Power Up
 
-2. Now you can test the sensor and get readings by typing in the following:
+1. Now you can test the sensor and get readings by typing in the following:
 ```
 sudo killall gpsd
 ```
@@ -76,5 +77,8 @@ sudo gpsd /dev/serial0 -F /var/run/gpsd.sock
 ```
 cgps -s
 ```
+You should see something like this:
+<br/><img src="https://github.com/rickyramnath97/gps/blob/master/images/output.jpg" width="350">
 
-
+### Explore with your Sensor
+You are now ready to conduct experiments with your VOC sensor. 
