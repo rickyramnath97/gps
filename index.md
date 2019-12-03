@@ -5,7 +5,7 @@
 
 <p>I needed to get a faster fix for my sensor. In order to combat that I used another type of antenna that I had at home that came with my surveillance camera system. This antenna was able to get a better fix with my GPS due to the protruding antenna. </p>
 
-<br/><img src="images/update.jpg" width="350"></p>
+<br/><img src="images/update.jpg" width="350">
 
 <p>I am also working on my README.md file to conclude this semester with. </p>
 
