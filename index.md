@@ -1,3 +1,17 @@
+<h3 id="december-03-2019-week-13">December 3, 2019 (Week 13)</h3>
+<p>Presentation Day + Update on Project</p>
+
+<p>Today I presented my final hardware project. I also had to update something in m project. </p>
+
+<p>I needed to get a faster fix for my sensor. In order to combat that I used another type of antenna that I had at home that came with my surveillance camera system. This antenna was able to get a better fix with my GPS due to the protruding antenna. </p>
+
+<img src="images/update.jpg" alt="Update"/>
+
+<p>I am also working on my README.md file to conclude this semester with. </p>
+
+
+
+<hr size="10" width="100%" align="center" color="green">
 <h3 id="november-26-2019-week-12">November 26, 2019 (Week 12)</h3>
 
 <p>Presentation Due</p>
