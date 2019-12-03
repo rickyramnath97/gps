@@ -81,4 +81,4 @@ You should see something like this:
 <br/><img src="https://github.com/rickyramnath97/gps/blob/master/images/output.jpg" width="350">
 
 ### Explore with your Sensor
-You are now ready to conduct experiments with your VOC sensor. 
+You can now conduct experiments with your GPS sensor. 
