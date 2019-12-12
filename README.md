@@ -82,3 +82,6 @@ You should see something like this:
 
 ### Explore with your Sensor
 You can now conduct experiments with your GPS sensor. 
+
+By following these instructions, this project can be reproducible by anybody that has a basic understanding of computers and hardware.
+
