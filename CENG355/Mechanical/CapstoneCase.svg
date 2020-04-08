@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -575,8 +575,8 @@
      id="path4075"
      inkscape:connector-curvature="0" />
   <path
-     d="M 51.142061,480.4363 H 356.07038 V 389.66264 H 51.142061 Z"
-     style="fill:none;stroke:#ff0000;stroke-width:0.29344174;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     d="M 69.438306,480.4664 H 341.93921 V 416.28904 H 69.438306 Z"
+     style="fill:none;stroke:#ff0000;stroke-width:0.23324803;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
      id="path4077"
      inkscape:connector-curvature="0" />
   <path
@@ -706,31 +706,31 @@
      id="Layer1011"
      transform="matrix(1.0574252,0,0,1.0403421,767.21524,42.829468)" />
   <path
-     d="m 160.76452,151.72495 h 105.33915 c 1.71634,-0.003 3.10697,2.2108 3.10697,4.93993 l -0.001,146.38607 c 0.001,2.72762 -1.38923,4.94107 -3.10411,4.94107 l -105.34059,10e-4 c -1.71395,-10e-4 -3.10482,-2.21459 -3.10482,-4.94331 l -7.4e-4,-146.38259 c 7.2e-4,-2.7314 1.39159,-4.94446 3.10625,-4.94446 z"
-     style="fill:none;stroke:#ff0000;stroke-width:0.64730114;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none"
+     d="m 160.76452,181.16212 h 105.33915 c 1.71634,-0.003 3.10697,1.79433 3.10697,4.00936 l -0.001,118.81044 c 0.001,2.2138 -1.38923,4.01029 -3.10411,4.01029 l -105.34059,8.1e-4 c -1.71395,-8.1e-4 -3.10482,-1.79742 -3.10482,-4.0121 l -7.4e-4,-118.80762 c 7.2e-4,-2.21687 1.39159,-4.01304 3.10625,-4.01304 z"
+     style="fill:none;stroke:#ff0000;stroke-width:0.58315474;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none"
      id="path4105-4"
      inkscape:connector-curvature="0" />
   <path
-     d="m 152.6166,0.13850694 h 98.53045 c 1.60538,-4.42e-4 2.90612,0.430115 2.90612,0.96106596 l -0.001,28.4795631 c 0.001,0.53066 -1.29942,0.961289 -2.90348,0.961289 l -98.53176,2.2e-4 c -1.60316,-2.2e-4 -2.90414,-0.430849 -2.90414,-0.961729 l -6.6e-4,-28.4789011 c 6.6e-4,-0.53139296 1.30164,-0.96194996 2.90547,-0.96194996 z"
+     d="m 153.44962,3.4705691 h 98.53045 c 1.60538,-4.42e-4 2.90612,0.430115 2.90612,0.961066 l -0.001,28.4795629 c 0.001,0.53066 -1.29942,0.961289 -2.90348,0.961289 l -98.53176,2.2e-4 c -1.60316,-2.2e-4 -2.90414,-0.430849 -2.90414,-0.961729 l -6.6e-4,-28.4789009 c 6.6e-4,-0.531393 1.30164,-0.96195 2.90547,-0.96195 z"
      style="fill:none;stroke:#ff0000;stroke-width:0.27612987;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none"
      id="path4105-0"
      inkscape:connector-curvature="0" />
   <path
-     d="m 425.81171,11.962475 h 117.95744 c 1.92191,-6.4e-4 3.47911,0.623118 3.47911,1.392321 l -0.002,41.259041 c 0.002,0.768779 -1.55562,1.392643 -3.47595,1.392643 l -117.95902,3.18e-4 c -1.91926,-3.18e-4 -3.47675,-0.624182 -3.47675,-1.393279 l -7.8e-4,-41.258085 c 7.8e-4,-0.769841 1.55827,-1.393599 3.47833,-1.393599 z"
+     d="m 425.81171,19.459615 h 117.95744 c 1.92191,-6.4e-4 3.47911,0.623118 3.47911,1.392321 l -0.002,41.259041 c 0.002,0.768779 -1.55562,1.392643 -3.47595,1.392643 l -117.95902,3.18e-4 c -1.91926,-3.18e-4 -3.47675,-0.624182 -3.47675,-1.393279 l -7.8e-4,-41.258085 c 7.8e-4,-0.769841 1.55827,-1.393599 3.47833,-1.393599 z"
      style="fill:none;stroke:#ff0000;stroke-width:0.36365011;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none"
      id="path4105-7"
      inkscape:connector-curvature="0" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:18.58268929px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.46456721"
-     x="174.95049"
-     y="48.12693"
+     x="176.57553"
+     y="52.397053"
      id="text4190"
      transform="scale(1.0252206,0.97539983)"><tspan
        sodipodi:role="line"
        id="tspan4188"
-       x="174.95049"
-       y="48.12693"
+       x="176.57553"
+       y="52.397053"
        style="stroke-width:0.46456721">RFID</tspan></text>
   <text
      xml:space="preserve"
