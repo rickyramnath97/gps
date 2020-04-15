@@ -1,0 +1,5 @@
+adafruit-circuitpython-gps
+pad4pi
+mfrc522
+pyrebase
+python-wifi
