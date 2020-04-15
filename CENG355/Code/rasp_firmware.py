@@ -1,3 +1,8 @@
+"""@package docstring
+
+
+"""
+
 import pyrebase
 #import pythonwifi.iwlibs import Wireless
 from mfrc522 import SimpleMFRC522
@@ -38,7 +43,7 @@ reader = SimpleMFRC522()
 
 
 config = {
-    "apiKey": "AIzaSyCJi0KjiDPBf60-X5oPkoeaWICHnl_Thp0",
+    "apiKey": API_KEY,
     "authDomain": "partscrib-2fe52.firebaseapp.com",
     "databaseURL": "https://partscrib-2fe52.firebaseio.com",
     "projectId": "partscrib-2fe52",
@@ -59,6 +64,9 @@ current_student_sign_in = ""
 current_student_onboarding =""
 
 def gps():
+    """
+    Reads current coordinate values from GPS sensor and writes them to location data in database
+    """
     #GPS
     # num = int(subprocess.check_output(['wc', '-l', "gps_data.txt"])[:-13])
     count = 0  
@@ -78,6 +86,10 @@ entered_passcode = ""
 
 
 def digit_entered(key):
+    """
+    Writes pressed key to current pin entry portion of database if there are less then 6 current numbers in the current pin entry.
+    Otherwise updates database that full pin has been typed in.
+    """
     global entered_passcode
 
     db.child(f"userdata/{current_student_sign_in}/").update({"currentPinEntry": entered_passcode})
@@ -89,6 +101,9 @@ def digit_entered(key):
         db.child("newsBulletin/signIn/").update({"currentUID": "", "studentSigningIn": "false"})
 
 def key_pressed(key):
+    """
+    Handler for key press event listener. Only allows key presses from 0-9.
+    """
     try:
         int_key = int(key)
         if int_key >= 0 and int_key <= 9:
@@ -98,7 +113,9 @@ def key_pressed(key):
         pass
     
 def keypad():
-    
+    """
+    Initializes keypad and sets up configuration and listener
+    """   
     KEYPAD = [
         [1, 2, 3],
         [4, 5, 6],
@@ -121,6 +138,10 @@ def keypad():
 
 
 def onboardRFID(uid):
+    """
+    Helper function for onboarding handler.
+    Prompts and writes new onboarding student ID to tag
+    """
     print("Tap tag to write UID to rfid chip...\n")
     # First read rfid id, text
     id, text = reader.read()
@@ -130,6 +151,10 @@ def onboardRFID(uid):
     print(f'uid: {uid} written to tag\n')
 
 def onboarding_stream_handler(message):
+    """
+    Database event handler that Handles onboarding flow.
+    Retrieves current student to be proccessed.
+    """
     if message["data"]["studentOnBoarding"] == "true":
         global current_student_onboarding
         current_student_onboarding = message["data"]["currentUID"]
@@ -138,6 +163,10 @@ def onboarding_stream_handler(message):
         # set to false after onboarding complete
         db.child("newsBulletin/onBoarding/").update({"currentUID": "", "studentOnBoarding": "false"})
 def signIn_stream_handler(message):
+    """
+    Database event handler that Handles sign-in flow.
+    Retrieves current student to be proccessed and initiates keypad for pin entry
+    """
     if message["data"]["studentSigningIn"] == "true":
         print("Sign-In initiated....")
         global current_student_sign_in
@@ -146,17 +175,25 @@ def signIn_stream_handler(message):
 
         
 def location_stream_handler(message):
+    """
+    Database event handler that Handles gps location update.
+    Initiates GPS and updates current location.
+    """
     if message["data"]["updateLocation"] == "true":
         gps()
         db.child("newsBulletin/location/").update({"updateLocation": "false"})
 
 def main():
-
+    """
+    Main code block. Sets up event listeners to database. Runs in loop waiting for student to initiate sign-in process by tapping their
+    RFID tag.
+    """
+    onboard_stream = db.child("newsBulletin/onBoarding/").stream(onboarding_stream_handler)
+    signIn_stream = db.child("newsBulletin/signIn/").stream(signIn_stream_handler)
+    location_stream = db.child("newsBulletin/location/").stream(location_stream_handler)
     while True:
         # Listen for signIn or onboarding event
-        onboard_stream = db.child("newsBulletin/onBoarding/").stream(onboarding_stream_handler)
-        signIn_stream = db.child("newsBulletin/signIn/").stream(signIn_stream_handler)
-        location_stream = db.child("newsBulletin/location/").stream(location_stream_handler)
+
         # Wait for user tap and set signIn to true to begin process for keypad entry
         try:
             id, text = reader.read()
